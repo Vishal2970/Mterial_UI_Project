@@ -32,40 +32,16 @@ const Login = () => {
                         </Avatar>
                         <h2>Sign In</h2>
                     </Grid>
-                    <TextField
-                        label="User Name"
-                        placeholder="Enter User Name"
-                        fullWidth
-                        required
-                        style={textFieldStyle}
-                    />
+                    <TextField label="User Name" placeholder="Enter User Name" fullWidth required style={textFieldStyle} />
 
-                    <TextField
-                        label="Password"
-                        placeholder="Enter Password"
-                        type="password"
-                        fullWidth
-                        required
-                        style={textFieldStyle}
-                    />
+                    <TextField label="Password" placeholder="Enter Password" type="password" fullWidth required style={textFieldStyle} />
 
-                    <FormControlLabel
-                        control={<Checkbox />}
-                        label="Remember me"
-                        style={{ marginBottom: '20px' }}
-                    />
+                    <FormControlLabel control={<Checkbox />} label="Remember me" style={{ marginBottom: '20px' }} />
 
-                    <Button
-                        variant="contained"
-                        color="primary"
-                        fullWidth
-                    >
-                        Sign In
-                    </Button>
+                    <Button variant="contained" color="primary" fullWidth >Sign In</Button>
                 </Paper>
             </Grid>
         </Grid>
     );
 };
-
 export default Login;
